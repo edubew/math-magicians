@@ -6,16 +6,38 @@
 - Make simple calculations.
 - Read a random math-related quote.
 
-## Built with
-- Html
-- CSS
-- JavaScript
-- React
+## 🛠 Built With 
 
-## Live Demo
+### Tech Stack
+
+<details>
+  <summary>FrontEnd</summary>
+  <ul>
+    <li><a href="https://reactjs.org/docs/getting-started.html">React</a></li>
+  </ul>
+</details>
+
+<details>
+  <summary>Test</summary>
+  <ul>
+    <li><https://jestjs.io/docs/snapshot-testing">Jest</a></li>
+  </ul>
+</details>
+
+<!-- Features -->
+
+### Key Features
+
+ **- A react logo.**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🚀 Live Version
 [Math-Magicians Demo](Coming Soon)
 
-## Project Setup
+<!-- GETTING STARTED -->
+
+## 💻 Getting Started
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
@@ -40,7 +62,10 @@ npm run build
 npm start
 ```
 
-## Authors
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 👥 Authors
 
 👤 **Winfred Edube**
 
@@ -49,6 +74,13 @@ npm start
 - LinkedIn: [LinkedIn](https://linkedin.com/in/winfred-edube-9820a422a/)
 
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FUTURE FEATURES -->
+
+## 🔭 Future Features
+
+- **Calculator UI** - A simple calculator interface
 
 ## 🤝 Contributing
 
