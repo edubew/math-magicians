@@ -38,6 +38,7 @@ body {
   color: #fff;
   padding: 1rem;
   font-size: 3rem;
+  text-align: end;
 }
 
 .calculator__operand {
