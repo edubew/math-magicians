@@ -34,6 +34,7 @@
     "import/no-unresolved": "off",
     "import/no-named-as-default": "off",
     "react/prefer-stateless-function": "off",
+    "import/no-extraneous-dependencies": "off",
     "no-shadow": "off"
   },
   "ignorePatterns": [
