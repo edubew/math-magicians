@@ -28,7 +28,7 @@
 
 ### Key Features
 
- **- A Calculator interface.**
+ **- A Calculator Logic.**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -55,7 +55,6 @@ git clone git clone https://github.com/edubew/math-magicians
 cd Math-Magician
 npm install
 ```
-
 3. run the command to open your index.html automatically in your brower:
 ```bash
 npm run build
@@ -79,7 +78,7 @@ npm start
 
 ## 🔭 Future Features
 
-- **Calculator Logic** - Add ligic to the calculator interface
+- **Single Page App** - Add routes to make a SPA
 
 ## 🤝 Contributing
 
