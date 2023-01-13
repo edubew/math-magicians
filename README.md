@@ -28,7 +28,7 @@
 
 ### Key Features
 
- **- A react logo.**
+ **- A Calculator interface.**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -62,7 +62,6 @@ npm run build
 npm start
 ```
 
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 👥 Authors
@@ -80,7 +79,7 @@ npm start
 
 ## 🔭 Future Features
 
-- **Calculator UI** - A simple calculator interface
+- **Calculator Logic** - Add ligic to the calculator interface
 
 ## 🤝 Contributing
 
@@ -100,5 +99,4 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is [MIT](./MIT.md) licensed.
-
+This project is [MIT](./LICENSE) licensed.
