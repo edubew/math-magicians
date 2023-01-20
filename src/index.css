@@ -15,11 +15,21 @@ body {
   margin-left: 2rem;
 }
 
+.calculator__wrapper {
+  display: flex;
+  gap: 15%;
+  margin: 6rem 12rem;
+}
+
 .calculator__container {
   display: grid;
-  grid-template-columns: repeat(4, 6rem);
-  grid-template-rows: minmax(5rem, auto) repeat(5, 5rem);
-  justify-content: center;
+  grid-template-columns: repeat(4, 7rem);
+  grid-template-rows: minmax(6rem, auto) repeat(5, 6rem);
+}
+
+.calculator__image {
+  width: 30rem;
+  border-radius: 50%;
 }
 
 .calculator__container button {
@@ -57,6 +67,7 @@ header {
   justify-content: space-between;
   padding: 1.5rem;
   background: #034c65;
+  position: static;
 }
 
 .app__title {
