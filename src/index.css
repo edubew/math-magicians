@@ -2,33 +2,30 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  overflow-x: hidden;
 }
 
 body {
   background: #e0cdd0;
 }
 
-.container {
-  display: flex;
-  gap: 8rem;
-  margin-top: 6rem;
-  margin-left: 2rem;
-}
-
 .calculator__wrapper {
   display: flex;
   gap: 15%;
-  margin: 6rem 12rem;
+  justify-content: center;
+  align-items: center;
+  margin-top: 6rem;
+  margin-bottom: 3rem;
 }
 
 .calculator__container {
   display: grid;
-  grid-template-columns: repeat(4, 7rem);
-  grid-template-rows: minmax(6rem, auto) repeat(5, 6rem);
+  grid-template-columns: repeat(4, 5rem);
+  grid-template-rows: minmax(6rem, auto) repeat(5, 5rem);
 }
 
 .calculator__image {
-  width: 30rem;
+  width: 26rem;
   border-radius: 50%;
 }
 
@@ -64,10 +61,10 @@ body {
 
 header {
   display: flex;
+  width: 100%;
   justify-content: space-between;
   padding: 1.5rem;
   background: #034c65;
-  position: static;
 }
 
 .app__title {
@@ -115,3 +112,73 @@ p {
   line-height: 1.8rem;
   text-align: center;
 }
+
+.nav__btn {
+  display: none;
+}
+
+/* MEDIA QUERIES */
+
+ @media screen and (max-width: 1000px) {
+  nav {
+    position: fixed;
+    top: 0;
+    left: -0.1rem;
+    height: 100%;
+    width: 100%;
+    background-color: #034c65;
+    flex-direction: column;
+    transition: 1s;
+    transform: translateY(-100vh);
+  }
+
+  .nav__item {
+    text-align: center;
+    margin-top: 2rem;
+  }
+
+  .nav__btn {
+    display: block;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 2rem;
+    color: #fff;
+  }
+
+  .responsive__nav {
+    transform: none;
+  }
+
+  .close__btn {
+    position: absolute;
+    top: 0;
+    right: 2rem;
+  }
+
+  .calculator__wrapper {
+    margin: 6rem 2rem;
+  }
+
+  .calculator__container {
+    grid-template-columns: repeat(4, 4rem);
+    grid-template-rows: minmax(6rem, auto) repeat(5, 4rem);
+  }
+
+  .calculator__output {
+    font-size: 2rem;
+  }
+
+  .calculator__image {
+    width: 20rem;
+  }
+ }
+
+    @media screen and (max-width: 600px) {
+      .calculator__wrapper {
+        flex-direction: column-reverse;
+        gap: 2rem;
+        margin-top: 4rem;
+      }
+    }
