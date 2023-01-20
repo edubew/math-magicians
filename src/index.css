@@ -119,7 +119,7 @@ p {
 
 /* MEDIA QUERIES */
 
- @media screen and (max-width: 1000px) {
+@media screen and (max-width: 1000px) {
   nav {
     position: fixed;
     top: 0;
@@ -173,12 +173,12 @@ p {
   .calculator__image {
     width: 20rem;
   }
- }
+}
 
-    @media screen and (max-width: 600px) {
-      .calculator__wrapper {
-        flex-direction: column-reverse;
-        gap: 2rem;
-        margin-top: 4rem;
-      }
-    }
+@media screen and (max-width: 600px) {
+  .calculator__wrapper {
+    flex-direction: column-reverse;
+    gap: 2rem;
+    margin-top: 4rem;
+  }
+}
