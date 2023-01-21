@@ -33,7 +33,7 @@
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🚀 Live Version
-[Math-Magicians Demo](Coming Soon)
+[View Calculator App](https://calculator-app-5nla.onrender.com)
 
 <!-- GETTING STARTED -->
 
