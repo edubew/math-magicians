@@ -13,20 +13,14 @@ body {
   display: flex;
   gap: 15%;
   justify-content: center;
-  align-items: center;
-  margin-top: 6rem;
-  margin-bottom: 3rem;
+  margin: auto;
+  padding-top: 3rem;
 }
 
 .calculator__container {
   display: grid;
   grid-template-columns: repeat(4, 5rem);
   grid-template-rows: minmax(6rem, auto) repeat(5, 5rem);
-}
-
-.calculator__image {
-  width: 26rem;
-  border-radius: 50%;
 }
 
 .calculator__container button {
@@ -177,8 +171,8 @@ p {
 
 @media screen and (max-width: 600px) {
   .calculator__wrapper {
-    flex-direction: column-reverse;
+    flex-direction: column;
     gap: 2rem;
-    margin-top: 4rem;
+    margin-top: 2rem;
   }
 }

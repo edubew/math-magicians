@@ -1,6 +1,6 @@
+/* eslint-disable react/no-unescaped-entities */
 import React, { useState } from 'react';
 import calculate from '../logic/calculate';
-import math from '../assets/math.jpeg';
 
 const Calculator = () => {
   const [currentState, setState] = useState(0);
@@ -19,6 +19,7 @@ const Calculator = () => {
   }`;
   return (
     <div className="calculator__wrapper">
+      <h1>Let's Do Some Maths!!!</h1>
       <div className="calculator__container">
         <div className="calculator__output">
           <span>{result}</span>
@@ -100,9 +101,6 @@ const Calculator = () => {
         >
           =
         </button>
-      </div>
-      <div>
-        <img src={math} alt="math icon" className="calculator__image" />
       </div>
     </div>
   );
